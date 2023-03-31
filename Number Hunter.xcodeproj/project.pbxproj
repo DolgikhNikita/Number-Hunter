@@ -11,7 +11,6 @@
 		C95037992997BA8D0081CD7B /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95037982997BA8D0081CD7B /* SelectTimeViewController.swift */; };
 		C950379B2997BAFA0081CD7B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C950379A2997BAFA0081CD7B /* SettingsTableViewController.swift */; };
 		C971360A299F924C00A261AF /* FonMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9713609299F924C00A261AF /* FonMusic.mp3 */; };
-		C971360C29A53D6100A261AF /* SelectNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C971360B29A53D6100A261AF /* SelectNumberViewController.swift */; };
 		C98617EE29926671001E8114 /* GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98617ED29926671001E8114 /* GameApp.swift */; };
 		C98617F229926672001E8114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98617F129926672001E8114 /* Assets.xcassets */; };
 		C98617F529926672001E8114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98617F429926672001E8114 /* Preview Assets.xcassets */; };
@@ -27,7 +26,6 @@
 		C95037982997BA8D0081CD7B /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
 		C950379A2997BAFA0081CD7B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		C9713609299F924C00A261AF /* FonMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FonMusic.mp3; sourceTree = "<group>"; };
-		C971360B29A53D6100A261AF /* SelectNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNumberViewController.swift; sourceTree = "<group>"; };
 		C98617EA29926671001E8114 /* Number Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98617ED29926671001E8114 /* GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApp.swift; sourceTree = "<group>"; };
 		C98617F129926672001E8114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				C98617FB29926F8A001E8114 /* Main.storyboard */,
 				C98617FD2992735E001E8114 /* Launch Screen.storyboard */,
 				C95037982997BA8D0081CD7B /* SelectTimeViewController.swift */,
-				C971360B29A53D6100A261AF /* SelectNumberViewController.swift */,
 				C950379A2997BAFA0081CD7B /* SettingsTableViewController.swift */,
 				C937FC71299A593C00E8249F /* Settings.swift */,
 				C9E70754299BE16600FD6A3A /* RecordViewController.swift */,
@@ -181,7 +178,6 @@
 				C9E70755299BE16600FD6A3A /* RecordViewController.swift in Sources */,
 				C9DDD1022992986A00044943 /* Game.swift in Sources */,
 				C98617EE29926671001E8114 /* GameApp.swift in Sources */,
-				C971360C29A53D6100A261AF /* SelectNumberViewController.swift in Sources */,
 				C95037992997BA8D0081CD7B /* SelectTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,7 +22,6 @@ class Game {
         var isFound:Bool = false
         var isErorr = false
     }
-    private var NumberForGame:Int
     let data = Array(1...99)
     
     var items:[Item]=[]
@@ -64,7 +63,6 @@ class Game {
     init(countItems:Int, updateTimer:@escaping (_ status:StatusGame,_ seconds:Int)->Void){
         self.countItems = countItems
         self.TimeForGame = Settings.shared.currentSettings.timeForGame
-        self.NumberForGame = Settings.shared.currentSettings.numberForGame
         self.secondsGame = self.TimeForGame
         self.updateTimer = updateTimer
         setupGame()

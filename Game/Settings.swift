@@ -16,13 +16,12 @@ struct SettingsGame:Codable{
     var timerState:Bool
     var musicState:Bool
     var timeForGame:Int
-    var numberForGame:Int
 }
 
 class Settings{
     static var shared = Settings()
     
-    private let defaultSettings = SettingsGame(timerState: true, musicState: true, timeForGame: 30, numberForGame: 99)
+    private let defaultSettings = SettingsGame(timerState: true, musicState: true, timeForGame: 30)
     var currentSettings:SettingsGame{
         get{
             if let data = UserDefaults.standard.object(forKey: KeysUserDefaults.SettingsGame) as? Data{

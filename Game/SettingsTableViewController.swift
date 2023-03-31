@@ -9,7 +9,6 @@ import UIKit
 
 class SettingsTableViewController: UITableViewController {
     
-    @IBOutlet weak var numberGameLabel: UILabel!
     @IBOutlet weak var switchTimer: UISwitch!
     @IBOutlet weak var switchMusic: UISwitch!
     @IBOutlet weak var timeGameLabel: UILabel!
@@ -35,7 +34,6 @@ class SettingsTableViewController: UITableViewController {
     
     func LoadSettings(){
         timeGameLabel.text = "\(Settings.shared.currentSettings.timeForGame) сек"
-        numberGameLabel.text = "Значения до \(Settings.shared.currentSettings.numberForGame)"
         switchTimer.isOn = Settings.shared.currentSettings.timerState
         switchMusic.isOn = Settings.shared.currentSettings.musicState
     }
@@ -47,16 +45,6 @@ class SettingsTableViewController: UITableViewController {
             }
         default:
             break
-        }
-        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            switch segue.identifier{
-            case "SelectNumberVC":
-                if let vc = segue.destination as? SelectNumberViewController{
-                    vc.data = [9,99,999,9999]
-                }
-            default:
-                break
-            }
         }
     }
 }
